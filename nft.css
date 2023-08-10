@@ -1,0 +1,702 @@
+body {
+    background-color: #2B2B2B;
+}
+
+@font-face {
+    font-family: "work";
+    src: url("WorkSans-Regular.ttf");
+}
+
+* {
+    color: #fff !important;
+   text-transform: capitalize;
+   padding: 0 !important;
+   font-family: "work";
+}
+
+
+
+nav {
+    margin-top: 20px !important;
+}
+
+
+nav ul li a {
+    font-weight: 600 !important;
+}
+
+nav ul li button {
+    background-color: #A259FF;
+    height: 60px;
+    width: 152px;
+}
+
+nav ul li button:hover {
+    opacity: 0.7;
+}
+
+
+
+nav a {
+    position: relative;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(233, 214, 214) !important;
+}
+
+
+
+body .container-fluid:first-of-type {
+    margin-bottom: 100px;
+}
+
+.sale h1 {
+    font-weight: 600;
+    font-size: 67px;
+}
+
+.sale p {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.full {
+    min-width: 224px;
+    height: 60px;
+    background-color: #A259FF;
+    font-size: 16px;
+}
+
+.full:hover {
+    opacity: 0.7;
+}
+
+.sale button + div p {
+    margin: 0 !important;
+}
+
+.sale-2 .card-footer {
+    background-color: #3B3B3B;
+    height: 109px;
+} 
+
+.sale-2 .card-footer img {
+    width: 24px;
+    height: 24px;
+}
+
+.sale-2 img {
+    height: 401px;
+    height: 401px;
+}
+
+.sale-2 p:first-of-type {
+  font-size: 22px;
+  font-weight: 600;   
+}
+
+.divider {
+ gap: 85px;
+}
+
+.divider p:last-of-type {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.container-fluid + .container .row:first-of-type {
+    margin-bottom: 162px;
+}
+
+
+.container-fluid + .container .row + h2 {
+    font-size: 38px;
+}
+
+.container-fluid + .container .row + h2 + p {
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+section .card > img {
+    height: 330px;
+    width: auto;
+}
+
+ .row {
+    margin-inline: 0 !important;
+}
+
+section .card .card-footer > div {
+    width: 30%;
+}
+
+section .card .card-footer > div img {
+ width: 100%;
+}
+
+article {
+    margin-top: 162px;
+}
+
+
+article h2 {
+    font-size: 22px;
+    line-height: 50px;
+    font-weight: 400;
+}
+
+article h2::first-line {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+article button:first-of-type {
+    width: 247px;
+    height: 60px;
+    border: 2px solid #A259FF;
+}
+
+article div:first-of-type {
+    margin-bottom: 60px;
+}
+
+.fox div {
+    height: 238px;
+    background-color: #3B3B3B;
+    margin: 0 !important;
+    border-radius: 20px;
+}
+
+
+.fox .text-center {
+    padding-top: 20px !important;
+    position: relative;
+}
+
+.fox span {
+    font-size: 16px;
+    color: #858584 !important;
+}
+
+.fox .rounded-circle {
+    background-color: #2B2B2B;
+    width: 30px;
+    height: 30px;
+    left: 6%;
+    top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.juanie > div {
+    background-color: #3B3B3B;
+    height: 100px;
+    width: 100%;
+}
+
+.juanie span {
+    
+        font-size: 16px;
+        color: #858584 !important;
+    }
+
+    .juanie h4 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .juanie h4::first-line {
+        font-size: 22px;
+    }
+
+    .juanie .rounded-circle {
+        width: 30px;
+        height: 30px;
+        background-color: #2B2B2B;
+        position: absolute;
+        transform: translateY(-20%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .juanie button {
+        border: 2px solid #A259FF;
+        height: 60px;
+    }
+
+    .robotica {
+        margin-top: 162px !important;
+        font-size: 38px;
+        letter-spacing: 5px;
+    }
+
+    @media screen and (max-width: 990px) {
+
+        article img:hover {
+            transform: scale(1) !important;
+        }
+
+        article {
+            margin-top: 80px;
+        }
+
+        .robotica {
+            margin-top: 80px !important;
+        }
+
+        .galaxy {
+            margin-top: 80px;
+        }
+
+        .container-fluid + .container .row:first-of-type {
+            margin-bottom: 80px;
+        }
+    
+        .robotica {
+            font-size: 28px !important;
+        }
+    
+        h2 {
+            font-size: 28px !important;
+        }
+    }
+
+    .robotica + .row .card-footer {
+        height: 76px;
+        background-color: #3B3B3B;
+    }
+
+    .robotica + .row .card-footer p {
+        font-size: 22px;
+    }
+
+    
+
+    .robotica + .row + .row .card-footer {
+        height: 76px;
+        background-color: #3B3B3B;
+    }
+
+    .robotica + .row +.row .card-footer p {
+        font-size: 22px;
+    }
+
+    .card-footer {
+        border: none !important;
+    }
+
+    .galaxy button {
+        width: 187px;
+        height: 60px;
+        border: 2px solid #A259FF;
+    }
+
+    .galaxy {
+        margin-top: 162px;
+        margin-bottom: 60px;
+    }
+
+   
+    .galaxy h2 {
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .galaxy h2::first-line {
+        font-size: 38px;
+        font-weight: 600;
+    }
+
+    .galaxy + .row .card-body, .card-footer {
+        background-color: #3B3B3B;
+    }
+
+    .fiction {
+        height: 60px;
+        border: 2px solid #A259FF;
+    }
+
+    .nft .card-footer div p:first-child {
+        font-size: 12px;
+        color: #858584 !important;
+    }
+
+    .nft .card-body p:first-of-type {
+        font-size: 22px !important;
+    }
+
+    .mashroom {
+        height: 640px;
+        background-image: url("NFT_Highlight.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        left: 0;
+        background-size: 100% 100%;
+        margin-top: 80px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .mashroom {
+            height: 640px;
+            background-image: url("nft-mashroom-2.png");
+        }
+        
+    }
+
+    .shroomie {
+        background-color: #3B3B3B;
+        width: 151px;
+        height: 44px;
+    }
+
+    .magic {
+        margin-top: 360px;
+    }
+
+    @media screen and (max-width: 992px) {
+        .magic {
+            margin-top: 120px;
+        }
+
+        .auction {
+            width: 100% !important;
+        }
+    }
+
+    .magic button {
+        width: 198px;
+        height: 60px;
+        background-color: #fff;
+        color: #2B2B2B !important;
+    }
+
+    .magic button:hover {
+        background-color: rgb(170, 226, 170);
+    }
+
+
+    .shroomie + h3 {
+        font-size: 60px;
+    }
+
+    .auction {
+        width: 295px;
+        height: 144px;
+        background-color: #3B3B3B80;
+        border-radius: 20px;
+    }
+
+    .auction p {
+        font-size: 12px;
+        font-weight: 400 !important;
+    }
+
+    .auction h4 {
+        font-size: 38px;
+        font-weight: 700 !important;
+    }
+
+    .wallet {
+        margin-top: calc(80px + 640px + 80px);
+        font-size: 38px;
+        font-weight: 600 !important;
+    }
+
+    .wallet + p {
+        font-size: 22px;
+        margin-bottom: 48px;
+    }
+
+
+    .cosmo > div {
+        height: 439px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+    }
+    
+    .cosmo h5 {
+        font-size: 22px;
+        font-weight: 600 !important;
+    }
+
+    .cosmo p {
+        font-weight: 400 !important;
+    }
+
+    .discover-1 h3 {
+      font-size: 38px !important;
+    }
+
+    .discover-1 p {
+     font-size: 22px !important;
+    }
+
+
+    @media screen and (max-width: 992px) {
+
+        .discover-2 {
+            margin-top: 80px !important;
+            margin-bottom: 40px !important;
+        }
+
+        .discover-1 h3 {
+            font-size: 28px;
+        }
+
+        .discover-1 p {
+            font-size: 16px !important;
+        }
+
+        .cosmo img {
+            width: auto;
+            height: auto;
+        }
+
+        .cosmo h5 {
+            font-size: 16px !important;
+        }
+
+        .cosmo p {
+            font-size: 12px !important;
+        }
+
+        .cosmo > div {
+          min-height: 157px;
+          max-height: 160px;
+        }
+
+        .aside-2 h5 {
+            font-size: 28px !important;
+        }
+
+        .aside-2 h5 + p {
+            font-size: 16px !important;
+        }
+
+        .wallet {
+            font-size: 28px;
+        }
+
+        .wallet + p {
+            font-size: 16px;
+        }
+    }
+    
+    @media screen and (max-width: 991px) {
+         
+        .cosmo > div > div {
+            width: 70%;
+        }
+
+    }
+
+    aside {
+        height: 430px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        margin-top: 120px;
+    }
+
+    aside h5 {
+        font-size: 38px;
+        font-weight: 600 !important;
+    }
+
+    aside p {
+        font-size: 22px;
+        font-weight: 400 !important;
+    }
+
+    aside > div {
+        width: 425px;
+        margin-left: 80px;
+    }
+
+    aside > div > div {
+        height: 60px;
+        border-radius: 20px;
+    }
+
+    aside input {
+        height: 60px;
+    }
+
+    aside button {
+        position: absolute;
+        height: 60px;
+        width: 45%;
+        background-color: #A259FF !important;
+        border: none;
+        font-size: 16px !important;
+        right: 0;
+        top: 0;
+    }
+
+    aside button:hover {
+        opacity: 0.8;
+    }
+
+   
+
+    .footer-1 {
+        position: relative;
+        height: 334px;
+        background-color: #3B3B3B;
+        margin-top: 80px;
+    }
+
+    .footer-1 h4 {
+        font-size: 22px;
+        font-weight: 600 !important;
+    }
+
+    .footer-1 p {
+        font-size: 16px;
+        font-weight: 400 !important;
+    }
+
+    .footer-1 > div > div {
+        height: 60px;
+        border-radius: 20px;
+    }
+
+    .footer-1 input {
+        height: 60px;
+    }
+
+    .footer-1 button {
+        position: absolute;
+        height: 60px;
+        width: 45%;
+        background-color: #A259FF !important;
+        border: none;
+        font-size: 16px !important;
+        right: 0;
+        top: 0;
+    }
+
+    .footer-1 button:hover {
+        opacity: 0.8;
+    }
+
+    .footer-1 .row > div h4,p {
+        margin-bottom: 24px !important;
+    }
+
+    hr {
+        height: 1px;
+        width: 100%;
+        background-color: #858584;
+        bottom: 40px;
+    }
+
+    .template {
+        font-size: 12px;
+        font-weight: 400 !important;
+    }
+
+    /* --------------------------- */
+
+    .footer-2 {
+        height: 776px;
+        background-color: #3B3B3B;
+    }
+
+    .aside-2 h5 {
+        font-size: 38px;
+        font-weight: 600 !important;
+    }
+
+    .aside-2 p {
+        font-size: 22px;
+        font-weight: 400 !important;
+    }
+
+    .aside-2 button {
+        height: 46px;
+        width: 100%;
+        background-color: #A259FF !important;
+        border: none;
+        font-size: 16px;
+    }
+
+    .aside-2 input {
+        height: 46px;
+    }
+
+    .aside-2 button:hover {
+        opacity: 0.8;
+    }
+
+    .footer-2 input {
+        width: 100%;
+        height: 46px;
+    }
+
+    .footer-2 button {
+        height: 46px;
+        background-color: #A259FF;
+        font-size: 16px;
+        font-weight: 600 !important;
+        text-transform: capitalize;
+    }
+
+    .footer-2 button:hover {
+        opacity: 0.8;
+    }
+
+    img[alt="animakid"] {
+        width: auto;
+        height: auto;
+    }
+
+    .second-h1 {
+        font-size: 28px !important;
+    }
+
+    .second-p {
+        font-size: 16px !important;
+    }
+
+ .galaxy .second-p {
+    font-size: 16px !important;
+}
+
+article img {
+    transition: transform 0.8s;
+}
+
+article img:hover {
+   transform: scale(1.2);
+}
+
+
+
+.card-link {
+    width: 100px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: block !important;
+    z-index: 7;
+}
+
+nav .href-1::after {
+    content: "";
+    position: absolute;
+    background-color: #A259FF;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+.href-1:hover::after {
+    width: 100%;
+}
